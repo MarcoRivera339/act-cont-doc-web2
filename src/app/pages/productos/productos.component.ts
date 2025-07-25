@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { ListaProductosComponent } from "../../components/lista-productos/lista-productos.component";
 import { GaleriaComponent } from "../../components/galeria/galeria.component";
+import { ListPaginationComponent } from '../../components/list-pagination/list-pagination.component';
+import { SearchInputComponent } from '../../components/search-input/search-input.component';
 
 @Component({
   selector: 'app-productos',
   standalone: true,
-  imports: [ListaProductosComponent, GaleriaComponent],
+  imports: [GaleriaComponent, ListPaginationComponent,SearchInputComponent ],
   templateUrl: './productos.component.html',
   styleUrl: './productos.component.css'
 })

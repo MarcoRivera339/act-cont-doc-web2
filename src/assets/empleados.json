@@ -1,0 +1,5 @@
+[
+    {"id":1,"cedula":"1723945737","nombre":"Marco","apellido":"Rivera", "cargo":"gerente general", "imagen":"https://cdn.pixabay.com/photo/2023/07/04/19/43/man-8106958_1280.png"},
+    {"id":2,"cedula":"1724328669","nombre":"Evelin","apellido":"Millingalli", "cargo":"asistente", "imagen":"https://cdn.pixabay.com/photo/2024/08/21/17/02/ai-generated-8986826_1280.jpg"},
+    {"id":3,"cedula":"1723945752","nombre":"Cristhian","apellido":"Toapanta", "cargo":"bodeguero", "imagen":"https://cdn.pixabay.com/photo/2023/07/04/19/43/man-8106958_1280.png"}
+]

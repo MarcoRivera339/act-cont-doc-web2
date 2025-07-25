@@ -1,0 +1,20 @@
+.titulo-productos {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #1e40af;
+    /* Azul elegante */
+    text-align: center;
+    margin: 2rem 0 1rem;
+    position: relative;
+}
+
+.titulo-productos::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #2563eb;
+    /* Azul más claro */
+    margin: 0.5rem auto 0;
+    border-radius: 9999px;
+}

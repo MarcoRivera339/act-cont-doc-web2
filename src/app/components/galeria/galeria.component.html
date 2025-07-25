@@ -1,0 +1,14 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-4">
+    @for (producto of productos ; track producto.id) {
+    <div class="product-card">
+        <img [src]="producto.imagen" alt="Imagen del producto">
+
+        <div class="product-info"><strong>Código:</strong> {{ producto.id }}</div>
+        <div class="product-info"><strong>Nombre:</strong> {{ producto.nombre }}</div>
+        <div class="product-info"><strong>Precio:</strong> ${{ producto.precio }}</div>
+        <div class="product-info"><strong>Cantidad:</strong> {{ producto.cantidad }}</div>
+
+        <button type="button" class="product-button">Comprar</button>
+    </div>
+    }
+</div>

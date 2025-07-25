@@ -1,0 +1,45 @@
+<div class="relative overflow-x-auto">
+    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3">
+                    Id
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Producto
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Precio
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Cantidad
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Imagen
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (producto of products ; track producto.id) {
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    {{producto.id}}
+                </th>
+                <td class="px-6 py-4">
+                    {{producto.nombre}}
+                </td>
+                <td class="px-6 py-4">
+                    {{producto.precio}}
+                </td>
+                <td class="px-6 py-4">
+                    {{producto.cantidad}}
+                </td>
+                <td class="px-6 py-4">
+                    <img [src]="producto.imagen" alt="Imagen del producto" class="w-16 h-16 object-cover rounded">
+                </td>
+
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

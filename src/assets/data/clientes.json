@@ -1,0 +1,31 @@
+{
+  "clientes": [
+    {
+      "id": "50a5",
+      "email": "mrivera036300@gmail.com",
+      "password": "123456",
+      "nombre": "hbjn",
+      "apellido": "vghjbk",
+      "telefono": "gvhjb",
+      "profesion": "hb"
+    },
+    {
+      "id": "45aa",
+      "email": "libia@gmail.com",
+      "password": "123456",
+      "nombre": "libia",
+      "apellido": "altamirano",
+      "telefono": "099999999",
+      "profesion": "comerciante"
+    },
+    {
+      "id": "3e51",
+      "email": "mari@gmail.com",
+      "password": "123456",
+      "nombre": "maribel",
+      "apellido": "rivera",
+      "telefono": "0999999999",
+      "profesion": "ing"
+    }
+  ]
+}
